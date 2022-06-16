@@ -1,0 +1,22 @@
+[
+    {
+        "model": "screamer_api.Director",
+        "pk": 1,
+        "fields": {
+            "first_name": "John",
+            "last_name": "Carpenter",
+            "birth_date": "1948-01-16",
+            "bio": "John Howard Carpenter is an American filmmaker, actor and composer. Although he worked in various film genres, he is most commonly associated with horror, action, and science fiction films of the 1970s and 1980s. He is generally recognized as one of the greatest masters of the horror genre."
+        }
+    },
+    {
+        "model": "screamer_api.Director",
+        "pk": 2,
+        "fields": {
+            "first_name": "Sam",
+            "last_name": "Raimi",
+            "birth_date": "1959-08-23",
+            "bio": "Samuel M. Raimi is an American filmmaker and actor. He is known for directing the Spider-Man trilogy and the Evil Dead franchise."
+        }
+    }
+]

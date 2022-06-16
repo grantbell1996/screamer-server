@@ -1,0 +1,32 @@
+[
+    {
+        "model": "screamer_api.Movie",
+        "pk": 1,
+        "fields": {
+            "name": "The Fog",
+            "director": 1,
+            "release_date": "1980-02-01",
+            "run_time": 1.5,
+            "filming_location": "Hollywood, California",
+            "synopsis": "Strange things begin to occurs as a tiny California coastal town prepares to commemorate its centenary. Inanimate objects spring eerily to life; Rev. Malone (Hal Holbrook) stumbles upon a dark secret about the town's founding; radio announcer Stevie (Adrienne Barbeau) witnesses a mystical fire; and hitchhiker Elizabeth (Jamie Lee Curtis) discovers the mutilated corpse of a fisherman. Then a mysterious iridescent fog descends upon the village, and more people start to die.",
+            "user": 1,
+            "trailer": "https://www.youtube.com/watch?v=nOZwnivtLbc",
+            "genre": 1
+        }
+    },
+    {
+        "model": "screamer_api.Movie",
+        "pk": 2,
+        "fields": {
+            "name": "Evil Dead",
+            "director": 2,
+            "release_date": "1981-08-15",
+            "run_time": 1.5,
+            "filming_location": "Morristown, Tennessee",
+            "synopsis": "Ashley Williams (Bruce Campbell), his girlfriend and three pals hike into the woods to a cabin for a fun night away. There they find an old book, the Necronomicon, whose text reawakens the dead when it's read aloud. The friends inadvertently release a flood of evil and must fight for their lives or become one of the evil dead. Ash watches his friends become possessed, and must make a difficult decision before daybreak to save his own life in this, the first of Sam Raimi's trilogy.",
+            "user": 1,
+            "trailer": "https://www.youtube.com/watch?v=NL6mioAlpJk",
+            "genre": 1
+        }
+    }
+]

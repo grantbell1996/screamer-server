@@ -1,0 +1,13 @@
+[
+    {
+        "model": "screamer_api.Actor",
+        "pk": 1,
+        "fields": {
+            "first_name": "Jamie Lee",
+            "last_name": "Curtis",
+            "birth_date": "1958-11-22",
+            "death_date": null,
+            "bio": "Jamie Lee Curtis is an American actress, producer, author, and activist. She is the recipient of several accolades, including two Golden Globe Awards, a British Academy Film Award, and a star on the Hollywood Walk of Fame."
+        }
+    }
+]

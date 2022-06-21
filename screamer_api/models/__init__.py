@@ -6,4 +6,5 @@ from .MovieActor import MovieActor
 from .MovieProdCompanies import MovieProdCompany
 from .ProductionCompany import ProductionCompany
 from .Review import Review
+from .List import List
 

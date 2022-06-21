@@ -9,5 +9,16 @@
             "death_date": null,
             "bio": "Jamie Lee Curtis is an American actress, producer, author, and activist. She is the recipient of several accolades, including two Golden Globe Awards, a British Academy Film Award, and a star on the Hollywood Walk of Fame."
         }
+    },
+    {
+        "model": "screamer_api.Actor",
+        "pk": 2,
+        "fields": {
+            "first_name": "Donald",
+            "last_name": "Pleasance",
+            "birth_date": "1958-08-05",
+            "death_date": null,
+            "bio": "Pleasence starred as psychiatrist Dr Samuel Loomis in Halloween (1978) and four of its sequels, a role for which he was nominated for a Saturn Award for Best Actor. The series' popularity and critical success led to a resurgent career for Pleasence, who appeared in numerous American and European-produced horror and thriller films. He collaborated with Halloween director John Carpenter twice more, as the President of the United States in Escape from New York (1981), and as the Priest in Prince of Darkness (1987)."
+        }
     }
 ]

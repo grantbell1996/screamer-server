@@ -5,6 +5,7 @@ from rest_framework import serializers, status
 from screamer_api.models.Director import Director
 from screamer_api.models.Movie import Movie
 from screamer_api.models.Genre import Genre
+from screamer_api.models.MovieActor import MovieActor
 from screamer_api.serializers import ActorSerializer, MovieSerializer
 from screamer_api.models import Actor
 
@@ -37,6 +38,7 @@ class MovieView(ViewSet):
         """
         director = Director.objects.get(pk=request.data["director"])
         genre = Genre.objects.get(pk=request.data["genre"])
+        actor = Actor.objects.get(pk=request.data["actor"])
         
         movie = Movie.objects.create(
             name = request.data["name"],
@@ -50,7 +52,13 @@ class MovieView(ViewSet):
             genre = genre,
             director = director
             )
+        
+        movie_actor = MovieActor.objects.create(
+            movie = movie,
+            actor = actor
+        )
 
+        movie_actor.save()
         serializer = MovieSerializer(movie)
         return Response(serializer.data)
     
@@ -73,9 +81,6 @@ class MovieView(ViewSet):
         
         director = Director.objects.get(pk=request.data["director"])
         movie.director = director
-        
-        genre = Genre.objects.get(pk=request.data["genre"])
-        movie.genre = genre
         
         movie.save()
 

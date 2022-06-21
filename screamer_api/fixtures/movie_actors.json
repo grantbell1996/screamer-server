@@ -1,0 +1,27 @@
+[
+    {
+        "model": "screamer_api.MovieActor",
+        "pk": 1,
+        "fields": {
+            "movie": 1,
+            "actor": 1
+        }
+    },
+    {
+        "model": "screamer_api.MovieActor",
+        "pk": 2,
+        "fields": {
+            "movie": 6,
+            "actor": 1
+        }
+    },
+    {
+        "model": "screamer_api.MovieActor",
+        "pk": 3,
+        "fields": {
+            "movie": 6,
+            "actor": 2
+        }
+    }
+
+]

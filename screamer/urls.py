@@ -13,6 +13,7 @@ Including another URLconf
     1. Import the include() function: from django.urls import include, path
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
+from screamer_api.views.list_view import ListView
 from django.conf.urls import include
 from django.contrib import admin
 from django.db import router
@@ -22,6 +23,8 @@ from screamer_api.views import register_user, login_user
 from screamer_api.views import ActorView, MovieView, GenreView
 from screamer_api.views.director_view import DirectorView
 from screamer_api.views.review_view import ReviewView
+from screamer_api.views.user_view import UserView
+
 
 router = routers.DefaultRouter(trailing_slash=False)
 
@@ -30,6 +33,8 @@ router.register(r'directors', DirectorView, 'actor')
 router.register(r'movies', MovieView, 'movie')
 router.register(r'genres', GenreView, 'genre')
 router.register(r'reviews', ReviewView, 'review')
+router.register(r'lists', ListView, 'list')
+router.register(r'users', UserView, 'user')
 
 urlpatterns = [
     path('admin/', admin.site.urls),

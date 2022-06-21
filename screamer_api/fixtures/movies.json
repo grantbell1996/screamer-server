@@ -3,6 +3,7 @@
         "model": "screamer_api.Movie",
         "pk": 1,
         "fields": {
+            "movie_id": 790,
             "name": "The Fog",
             "director": 1,
             "release_date": "1980-02-01",
@@ -11,13 +12,15 @@
             "synopsis": "Strange things begin to occurs as a tiny California coastal town prepares to commemorate its centenary. Inanimate objects spring eerily to life; Rev. Malone (Hal Holbrook) stumbles upon a dark secret about the town's founding; radio announcer Stevie (Adrienne Barbeau) witnesses a mystical fire; and hitchhiker Elizabeth (Jamie Lee Curtis) discovers the mutilated corpse of a fisherman. Then a mysterious iridescent fog descends upon the village, and more people start to die.",
             "user": 1,
             "trailer": "https://www.youtube.com/watch?v=nOZwnivtLbc",
-            "genre": 1
+            "genre": 1,
+            "poster": "https://m.media-amazon.com/images/M/MV5BYmU4MmNmZWYtMmIxMC00MGE3LTljODctNWQ1ZTQ4NDBlNzQ1XkEyXkFqcGdeQXVyMjUzOTY1NTc@._V1_.jpg"
         }
     },
     {
         "model": "screamer_api.Movie",
         "pk": 2,
         "fields": {
+            "movie_id": 764,
             "name": "Evil Dead",
             "director": 2,
             "release_date": "1981-08-15",
@@ -26,7 +29,8 @@
             "synopsis": "Ashley Williams (Bruce Campbell), his girlfriend and three pals hike into the woods to a cabin for a fun night away. There they find an old book, the Necronomicon, whose text reawakens the dead when it's read aloud. The friends inadvertently release a flood of evil and must fight for their lives or become one of the evil dead. Ash watches his friends become possessed, and must make a difficult decision before daybreak to save his own life in this, the first of Sam Raimi's trilogy.",
             "user": 1,
             "trailer": "https://www.youtube.com/watch?v=NL6mioAlpJk",
-            "genre": 1
+            "genre": 1,
+            "poster": "https://i0.wp.com/www.thisishorror.co.uk/wp-content/uploads/2013/04/The-Evil-Dead.jpg?ssl=1"
         }
     }
 ]

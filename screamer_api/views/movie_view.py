@@ -37,7 +37,6 @@ class MovieView(ViewSet):
             Response -- JSON serialized actor instance
         """
         director = Director.objects.get(pk=request.data["director"])
-        genre = Genre.objects.get(pk=request.data["genre"])
         actor = Actor.objects.get(pk=request.data["actor"])
         
         movie = Movie.objects.create(
@@ -49,7 +48,6 @@ class MovieView(ViewSet):
             trailer = request.data["trailer"],
             poster = request.data["poster"],
             user = request.auth.user,
-            genre = genre,
             director = director
             )
         

@@ -20,5 +20,27 @@
             "death_date": null,
             "bio": "Pleasence starred as psychiatrist Dr Samuel Loomis in Halloween (1978) and four of its sequels, a role for which he was nominated for a Saturn Award for Best Actor. The series' popularity and critical success led to a resurgent career for Pleasence, who appeared in numerous American and European-produced horror and thriller films. He collaborated with Halloween director John Carpenter twice more, as the President of the United States in Escape from New York (1981), and as the Priest in Prince of Darkness (1987)."
         }
+    },
+    {
+        "model": "screamer_api.Actor",
+        "pk": 3,
+        "fields": {
+            "first_name": "Barbara",
+            "last_name": "Steele",
+            "birth_date": "1937-08-05",
+            "death_date": null,
+            "bio": "Barbara Steele is an English film actress and producer, known for starring in Italian gothic horror films of the 1960s. She has been referred to as the `Queen of All Scream Queens` and `Britain's first lady of horror`."
+        }
+    },
+    {
+        "model": "screamer_api.Actor",
+        "pk": 4,
+        "fields": {
+            "first_name": "Jim",
+            "last_name": "Richardson",
+            "birth_date": "1937-08-05",
+            "death_date": null,
+            "bio": "Jim Richardson is an English film actress and producer, known for starring in Italian gothic horror films of the 1960s. She has been referred to as the `Queen of All Scream Queens` and `Britain's first lady of horror`."
+        }
     }
 ]

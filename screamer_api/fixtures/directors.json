@@ -6,7 +6,8 @@
             "first_name": "John",
             "last_name": "Carpenter",
             "birth_date": "1948-01-16",
-            "bio": "John Howard Carpenter is an American filmmaker, actor and composer. Although he worked in various film genres, he is most commonly associated with horror, action, and science fiction films of the 1970s and 1980s. He is generally recognized as one of the greatest masters of the horror genre."
+            "bio": "John Howard Carpenter is an American filmmaker, actor and composer. Although he worked in various film genres, he is most commonly associated with horror, action, and science fiction films of the 1970s and 1980s. He is generally recognized as one of the greatest masters of the horror genre.",
+            "image": "https://www.interviewmagazine.com/wp-content/uploads/2015/02/img-john-carpenter_173833802256.jpg"
         }
     },
     {
@@ -16,7 +17,20 @@
             "first_name": "Sam",
             "last_name": "Raimi",
             "birth_date": "1959-08-23",
-            "bio": "Samuel M. Raimi is an American filmmaker and actor. He is known for directing the Spider-Man trilogy and the Evil Dead franchise."
+            "bio": "Samuel M. Raimi is an American filmmaker and actor. He is known for directing the Spider-Man trilogy and the Evil Dead franchise.",
+            "image": "https://m.media-amazon.com/images/M/MV5BMjEzMDY0NjkzMV5BMl5BanBnXkFtZTcwODIxMTkwMw@@._V1_UY180_CR51,0,180,180_AL_.jpg"
+        }
+    },
+    {
+        "model": "screamer_api.Director",
+        "pk": 3,
+        "fields": {
+            "first_name": "Mario",
+            "last_name": "Bava",
+            "birth_date": "1914-06-30",
+            "death_date": "1980-04-25",
+            "bio": "Mario Bava was an Italian filmmaker who worked variously as a director, cinematographer, special effects artist and screenwriter, frequently referred to as the `Master of Italian Horror` and the `Master of the Macabre`",
+            "image": "https://m.media-amazon.com/images/M/MV5BMjExNTE4Mzk3MV5BMl5BanBnXkFtZTgwMjkzNDkzMjE@._V1_.jpg"
         }
     }
 ]

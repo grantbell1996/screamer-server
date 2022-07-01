@@ -32,5 +32,50 @@
             "genre": 1,
             "poster": "https://i0.wp.com/www.thisishorror.co.uk/wp-content/uploads/2013/04/The-Evil-Dead.jpg?ssl=1"
         }
+    },    
+    {
+        "model": "screamer_api.Movie",
+        "pk": 3,
+        "fields": {
+            "name": "Christine",
+            "director": 1,
+            "release_date": "1983-08-15",
+            "run_time": 1.5,
+            "filming_location": "hollywood, Tennessee",
+            "synopsis": "Unpopular nerd Arnie Cunningham (Keith Gordon) buys a 1958 Plymouth Fury, which he names Christine. Arnie develops an unhealthy obsession with the car, to the alarm of his jock friend, Dennis Guilder (John Stockwell). After bully Buddy Repperton (William Ostrander) defaces Christine, the auto restores itself to perfect condition and begins killing off Buddy and his friends. Determined to stop the deaths, Dennis and Arnie's girlfriend, Leigh Cabot (Alexandra Paul), decide to destroy Christine.",
+            "user": 1,
+            "trailer": "https://www.youtube.com/watch?v=NL6mioAlpJk",
+            "genre": 1,
+            "poster": "https://m.media-amazon.com/images/M/MV5BMTc4NDcyMzQ2N15BMl5BanBnXkFtZTYwMjAyMTk4._V1_.jpg"        }
+    },
+    {
+        "model": "screamer_api.Movie",
+        "pk": 4,
+        "fields": {
+            "name": "Lisa e il diavalo",
+            "director": 3,
+            "release_date": "1974-08-15",
+            "run_time": 1.5,
+            "filming_location": "Spain",
+            "synopsis": "A travelling woman gets lost and finds herself stranded in a mansion full of demons and satanism, where it quickly becomes apparent that her life and soul is in extreme danger from the dark forces that rule over the house and its occupants.",
+            "user": 1,
+            "trailer": "https://www.youtube.com/watch?v=NL6mioAlpJk",
+            "genre": 1,
+            "poster": "https://m.media-amazon.com/images/M/MV5BNmQ3N2VkM2QtZGI4MS00ZjA1LTk2ZGYtZjkxYTFjMmFmMjY3XkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_.jpg"        }
+    },
+    {
+        "model": "screamer_api.Movie",
+        "pk": 5,
+        "fields": {
+            "name": "Army of Darkness",
+            "director": 2,
+            "release_date": "1992-08-15",
+            "run_time": 1.5,
+            "filming_location": "Vasquez Rocks Natural Area Park",
+            "synopsis": "Ash is transported back to medieval days, where he is captured by the dreaded Lord Arthur. Aided by the deadly chainsaw that has become his only friend, Ash is sent on a perilous mission to recover the Book of the Dead, a powerful tome that gives its owner the power to summon an army of ghouls.",
+            "user": 1,
+            "trailer": "https://www.youtube.com/watch?v=NL6mioAlpJk",
+            "genre": 1,
+            "poster": "https://i.etsystatic.com/6824854/r/il/54e9b5/3003287904/il_fullxfull.3003287904_gui1.jpg"        }
     }
 ]

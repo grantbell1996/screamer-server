@@ -1,0 +1,72 @@
+[
+    {
+        "model": "screamer_api.Genre",
+        "pk": 1,
+        "fields": {
+            "title": "Supernatural"
+        }
+    },
+    {
+        "model": "screamer_api.Genre",
+        "pk": 2,
+        "fields": {
+            "title": "Science Fiction"
+        }
+    },
+    {
+        "model": "screamer_api.Genre",
+        "pk": 3,
+        "fields": {
+            "title": "Vampire"
+        }
+    },
+    {
+        "model": "screamer_api.Genre",
+        "pk": 4,
+        "fields": {
+            "title": "Zombie"
+        }
+    },
+    {
+        "model": "screamer_api.Genre",
+        "pk": 5,
+        "fields": {
+            "title": "Slasher"
+        }
+    },
+    {
+        "model": "screamer_api.Genre",
+        "pk": 6,
+        "fields": {
+            "title": "Witchcraft"
+        }
+    },
+    {
+        "model": "screamer_api.Genre",
+        "pk": 7,
+        "fields": {
+            "title": "Monster"
+        }
+    },
+    {
+        "model": "screamer_api.Genre",
+        "pk": 8,
+        "fields": {
+            "title": "Anthology"
+        }
+    },
+    {
+        "model": "screamer_api.Genre",
+        "pk": 9,
+        "fields": {
+            "title": "Comedy"
+        }
+    },
+    {
+        "model": "screamer_api.Genre",
+        "pk": 10,
+        "fields": {
+            "title": "Psychological"
+        }
+    }
+]

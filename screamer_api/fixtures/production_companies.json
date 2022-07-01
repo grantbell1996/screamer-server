@@ -1,0 +1,11 @@
+[
+    {
+        "model": "screamer_api.ProductionCompany",
+        "pk": 1,
+        "fields": {
+            "name": "Columbia",
+            "year_founded": "1924-01-24",
+            "location": "Hollywood, California"
+        }
+    }
+]
